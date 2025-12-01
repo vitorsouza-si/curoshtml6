@@ -14,7 +14,16 @@ nav{
 #logo{
     height: 30px;
     width: 100px;
+    padding: 10px;
 }
+
+.banner-estrutura{
+    width:190px ;
+    border: 1px solid; 
+    border-color: #000000;
+    
+    }
+    
 
 hr{
     width: 1000px;
@@ -28,4 +37,44 @@ header{
     flex-direction: column;
 }
 
+.btn{
+height: 30px;
+width: 100px;
+border-radius: 50px;
+color: #ff0000;
+font-size: 15px;
+margin: 15px;
+background-color: #ffffff;
+border-color: #ff0000;
+}
+
+.btn-bu{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 15px;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-senai{
+    font-weight: bold ;
+    font-size: 20px;
+
+}
+
+.texto-medio{
+    font-size: 9px;
+}
+
+.section-banner{
+    justify-content: center;
+    width: 50px;
+    height: 250px;
+    margin: 60px;
+}
 
