@@ -1,80 +1,102 @@
-*{
-    padding: 0;
+* {
     margin: 0;
-}
-
-nav{
-    display: flex;
-    align-items:center ;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 100%;
-}
-
-#logo{
-    height: 30px;
-    width: 100px;
-    padding: 10px;
-}
-
-.banner-estrutura{
-    width:190px ;
-    border: 1px solid; 
-    border-color: #000000;
-    
-    }
-    
-
-hr{
-    width: 1000px;
-    margin: 25px;
-}
-
-header{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+  }
+  
+  header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.btn{
-height: 30px;
-width: 100px;
-border-radius: 50px;
-color: #ff0000;
-font-size: 15px;
-margin: 15px;
-background-color: #ffffff;
-border-color: #ff0000;
-}
-
-.btn-bu{
-    height: 30px;
-    width: 100px;
-    border-radius: 50px;
-    color: #ffffff;
-    font-size: 15px;
-    margin: 15px;
-    background-color: #ff0000;
-    border-color: #ff0000;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  header img {
+    height: 40px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 20px;
+  }
+  
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 30px auto;
+    max-width: 1100px;
+  }
+  
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
     display: flex;
-    justify-content: center;
-}
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 360px;
+  }
+  
+  
+  .tags {
+    margin-bottom: 10px;
+  }
+  
+  .tags span {
+    background-color: #eee;
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  
+  
+  .carga {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  
 
-.texto-senai{
-    font-weight: bold ;
-    font-size: 20px;
+  .buttons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .saiba, .inscrever {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .saiba {
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+  }
+  
+  .inscrever {
+    background-color: red;
+    color: white;
+  }
 
-}
-
-.texto-medio{
-    font-size: 9px;
-}
-
-.section-banner{
-    justify-content: center;
-    width: 50px;
-    height: 250px;
-    margin: 60px;
-}
-
+ 
